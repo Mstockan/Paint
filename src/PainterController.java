@@ -29,6 +29,9 @@ public class PainterController {
     @FXML private RadioButton redRadioButton;
     @FXML private RadioButton greenRadioButton;
     @FXML private RadioButton blueRadioButton;
+    @FXML private RadioButton orangeRadioButton;
+    @FXML private RadioButton whiteRadioButton;
+    @FXML private RadioButton greyRadioButton;
     @FXML private RadioButton smallRadioButton;
     @FXML private RadioButton mediumRadioButton;
     @FXML private RadioButton largeRadioButton;
@@ -47,6 +50,9 @@ public class PainterController {
         redRadioButton.setUserData(Color.RED);
         greenRadioButton.setUserData(Color.GREEN);
         blueRadioButton.setUserData(Color.BLUE);
+        orangeRadioButton.setUserData(Color.ORANGE);
+        whiteRadioButton.setUserData(Color.WHITE);
+        greyRadioButton.setUserData(Color.GREY);
         smallRadioButton.setUserData(PenSize.SMALL);
         mediumRadioButton.setUserData(PenSize.MEDIUM);
         largeRadioButton.setUserData(PenSize.LARGE);

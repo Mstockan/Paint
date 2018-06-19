@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
-
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PainterController">
    <padding>
       <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
@@ -20,7 +19,7 @@
             <Insets right="8.0" />
          </BorderPane.margin>
          <children>
-            <TitledPane text="Drawing Colour">
+            <TitledPane prefHeight="222.0" prefWidth="116.0" text="Drawing Colour">
                <content>
                   <VBox spacing="8.0">
                      <children>
@@ -32,6 +31,9 @@
                         <RadioButton fx:id="redRadioButton" mnemonicParsing="false" onAction="#colorRadioButtonSelected" text="Red" toggleGroup="$colorToggleGroup" />
                         <RadioButton fx:id="greenRadioButton" mnemonicParsing="false" onAction="#colorRadioButtonSelected" text="Green" toggleGroup="$colorToggleGroup" />
                         <RadioButton fx:id="blueRadioButton" mnemonicParsing="false" onAction="#colorRadioButtonSelected" text="Blue" toggleGroup="$colorToggleGroup" />
+                        <RadioButton fx:id="orangeRadioButton" mnemonicParsing="false" onAction="#colorRadioButtonSelected" text="Orange" toggleGroup="$colorToggleGroup" />
+                        <RadioButton fx:id="whiteRadioButton" mnemonicParsing="false" onAction="#colorRadioButtonSelected" text="White" toggleGroup="$colorToggleGroup" />
+                        <RadioButton fx:id="greyRadioButton" mnemonicParsing="false" onAction="#colorRadioButtonSelected" text="Grey" toggleGroup="$colorToggleGroup" />
                      </children>
                   </VBox>
                </content>
